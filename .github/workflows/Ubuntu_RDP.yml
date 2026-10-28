@@ -47,20 +47,20 @@ jobs:
       - name: Cleanup Junk
         run: |
           curl -L -o Cleanup.sh \
-              https://raw.githubusercontent.com/eymenygtkaya/Ubuntu_RDP/main/Cleanup.sh
+              https://raw.githubusercontent.com/eymenygtkaya/Ubuntu_RDP1/main/Cleanup.sh
           chmod +x Cleanup.sh
           ./Cleanup.sh
 
       - name: Create Server
         run: |
           curl -L -o Ubuntu_RDP.sh \
-              https://raw.githubusercontent.com/eymenygtkaya/Ubuntu_RDP/main/Ubuntu_RDP.sh
+              https://raw.githubusercontent.com/eymenygtkaya/Ubuntu_RDP1/main/Ubuntu_RDP.sh
           chmod +x Ubuntu_RDP.sh
           ./Ubuntu_RDP.sh
 
       - name: Keep Running
         run: |
           curl -L -o Keep_Running.sh \
-              https://raw.githubusercontent.com/eymenygtkaya/Ubuntu_RDP/main/Keep_Running.sh
+              https://raw.githubusercontent.com/eymenygtkaya/Ubuntu_RDP1/main/Keep_Running.sh
           chmod +x Keep_Running.sh
           ./Keep_Running.sh
